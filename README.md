@@ -1,11 +1,11 @@
-# AIAgents
+# template
 
 A full-stack application for automating workflows that can't be automated with APIs.
 
 ## Prerequisites
 
 - Node.js (>=16.0.0)
-- Yarn
+- pnpm
 - Docker & Docker Compose
 - Git
 
@@ -14,12 +14,12 @@ A full-stack application for automating workflows that can't be automated with A
 1. Clone the repository:
 ```bash
 git clone <your-repo-url>
-cd aiAgents
+cd template
 ```
 
 2. Install dependencies:
 ```bash
-yarn install
+pnpm install
 ```
 
 3. Start the PostgreSQL database:
@@ -45,16 +45,16 @@ npx prisma migrate dev  # Create and apply migrations
 Start both client and server in development mode:
 ```bash
 # From the root directory
-yarn dev
+pnpm dev
 ```
 
 Or start them separately:
 ```bash
 # Start client only
-yarn dev:client
+pnpm dev:client
 
 # Start server only
-yarn dev:server
+pnpm dev:server
 ```
 
 The application will be available at:
@@ -113,18 +113,18 @@ npx prisma migrate dev --name add_updates_table
 
 Build both client and server:
 ```bash
-yarn build
+pnpm build
 ```
 
 Start the production server:
 ```bash
-yarn start
+pnpm start
 ```
 
 ## Project Structure
 
 ```
-AIAgents/
+template/
 ├── client/               # React TypeScript frontend
 │   ├── src/             # Source files
 │   └── package.json     # Client dependencies
