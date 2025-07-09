@@ -1,6 +1,6 @@
 # template
 
-A full-stack application for automating workflows that can't be automated with APIs.
+A template for starting up app with react, tailwind, postgres, docker, fastify
 
 ## Prerequisites
 
