@@ -1,6 +1,6 @@
-# template
+# chat-kash
 
-A template for starting up app with react, tailwind, postgres, docker, fastify
+A chat-kash for starting up app with react, tailwind, postgres, docker, fastify
 
 ## Prerequisites
 
@@ -14,7 +14,7 @@ A template for starting up app with react, tailwind, postgres, docker, fastify
 1. Clone the repository:
 ```bash
 git clone <your-repo-url>
-cd template
+cd chat-kash
 ```
 
 2. Install dependencies:
@@ -124,7 +124,7 @@ pnpm start
 ## Project Structure
 
 ```
-template/
+chat-kash/
 ├── client/               # React TypeScript frontend
 │   ├── src/             # Source files
 │   └── package.json     # Client dependencies
